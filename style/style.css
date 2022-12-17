@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+
+h1{
+    color: white;
+}
+
+.box-shadow{
+    box-shadow: 0 0 10px red;
+    padding: 50px;
+    width: fit-content;
+    justify-content: center;
+}
+/* These are Section-1 Styles */
+#section-1{
+    background-image: url(/Images/Image-1_1-100.jpg);
+    background-size: cover;
+    padding: 1px 0;
+    background-repeat: no-repeat;
+    height: fit-content;
+    margin: o;
+}
+
+/* These are Section-2 Styles */
+#section-2{
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 255, 0.082);
+    margin: o;
+    padding: 1px 0;
+}
+
+#domain-search{
+    display: flex;
+    align-self: center;
+    background-color: white;
+}
+
+#input,#select,#search{
+    border: 2px solid rgba(121, 126, 128, 0.452);
+    padding: 20px 0;
+}
+#input{
+    padding-left: 35px;
+    padding-right: 215px;
+    border-radius: 30px 0 0 30px;
+    border-right: none;
+}
+
+#select{
+    padding-left: 35px;
+    padding-right: 35px;
+    border-right: none;
+}
+
+#search{
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 0 30px 30px 0;
+    background-color: blue;
+}
+/* Hovering in  Search Button */
+#search:hover{
+    background-color: rgba(0, 0, 255, 0.623);
+}
+
+#search a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.no-border{
+    border: none;
+}
+
+/* These are Section-3 Styles */
+#section-3{
+    text-align: center;
+    justify-content: center;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-itm{
+    box-shadow: 0 0 10px red;
+    padding: 35px 55px;
+    margin: 20px;
+    width: 340px;
+    text-align: left;
+}
+
+/* These are Section-4 Styles */
+#section-4{
+    background-color: rgba(0, 0, 255, 0.082);
+    text-align: center;
+}
+
+#pricing-plan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plan-itm{
+    box-shadow: 0 0 10px red;
+    padding: 35px 55px;
+    margin: 20px;
+    width: 340px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.plan-itm:hover{
+    border: 3px solid navy;
+}
+
+.righty{
+    text-align: right;
+    padding-left: 60px;
+}
