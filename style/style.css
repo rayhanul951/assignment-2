@@ -7,7 +7,7 @@ h1{
 }
 
 .box-shadow{
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 20px rgba(0, 0, 128, 0.432);
     padding: 50px;
     width: fit-content;
     justify-content: center;
@@ -18,7 +18,7 @@ h1{
     background-size: cover;
     padding: 1px 0;
     background-repeat: no-repeat;
-    height: fit-content;
+    height: 1040px;
     margin: o;
 }
 
@@ -35,6 +35,7 @@ h1{
     display: flex;
     align-self: center;
     background-color: white;
+    margin-left: 7%;
 }
 
 #input,#select,#search{
@@ -58,7 +59,7 @@ h1{
     padding-left: 60px;
     padding-right: 60px;
     border-radius: 0 30px 30px 0;
-    background-color: blue;
+    background-color: navy;
 }
 /* Hovering in  Search Button */
 #search:hover{
@@ -88,11 +89,15 @@ h1{
 }
 
 .service-itm{
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 20px rgba(0, 0, 128, 0.432);
     padding: 35px 55px;
     margin: 20px;
     width: 340px;
     text-align: left;
+}
+
+.service-itm img{
+   height: 100px;
 }
 
 /* These are Section-4 Styles */
@@ -108,12 +113,17 @@ h1{
 }
 
 .plan-itm{
-    box-shadow: 0 0 10px red;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 128, 0.432);
     padding: 35px 55px;
     margin: 20px;
     width: 340px;
     text-align: left;
     border-radius: 8px;
+}
+
+td{
+    height: 35px;
 }
 
 .plan-itm:hover{
@@ -123,4 +133,33 @@ h1{
 .righty{
     text-align: right;
     padding-left: 60px;
+}
+
+/* These are Section-7 Styles */
+section{
+    text-align: center;
+    justify-content: center;
+}
+
+.published{
+    display: flex;
+}
+
+.published img{
+    height: 15px;
+}
+
+#blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog-wrtting{
+    box-shadow: 0 0 20px rgba(0, 0, 128, 0.432);
+    padding: 35px 55px;
+    margin: 20px;
+    width: 320px;
+    text-align: center;
+    border-radius: 8px;
 }
