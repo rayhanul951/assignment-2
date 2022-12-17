@@ -1,5 +1,8 @@
 body{
     margin: 0;
+    /* Google Font Heebo */
+    font-family: 'Heebo', sans-serif;
+    font-size: 22px;
 }
 
 h1{
@@ -141,12 +144,11 @@ section{
     justify-content: center;
 }
 
-.published{
-    display: flex;
+.sec-head{
+    margin-top: 100px;
 }
-
-.published img{
-    height: 15px;
+.sec-head p{
+    margin-bottom: 50px;
 }
 
 #blog{
@@ -154,12 +156,45 @@ section{
     flex-wrap: wrap;
     justify-content: center;
 }
+.thumbnail{
+    width: 450px;
+    border-radius: 10px;
+}
+
+.blog-itm{
+    width: 450px;
+    margin: 20px;
+}
 
 .blog-wrtting{
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
     box-shadow: 0 0 20px rgba(0, 0, 128, 0.432);
-    padding: 35px 55px;
-    margin: 20px;
-    width: 320px;
-    text-align: center;
-    border-radius: 8px;
+    padding: 45px;
+    padding-bottom: 20px;
+    /* this is for positioning */
+    position: relative;
+    left: 30px;
+    top: -50px;
+    margin-bottom: 50px;
+}
+
+.published{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 36px;
+}
+
+.published img{
+    height: 20px;
+}
+
+.admin{
+    padding-right: 10px;
+}
+
+.calender{
+    border-left: 2px solid navy;
+    padding-left: 10px;
 }
