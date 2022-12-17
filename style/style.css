@@ -1,3 +1,8 @@
+header{
+    text-align: center;
+    padding-top: 15px;
+}
+
 body{
     margin: 0;
     /* Google Font Heebo */
@@ -109,10 +114,16 @@ h1{
     text-align: center;
 }
 
+#plan-h{
+    padding-top: 100px;
+
+}
+
 #pricing-plan{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .plan-itm{
@@ -197,4 +208,12 @@ section{
 .calender{
     border-left: 2px solid navy;
     padding-left: 10px;
+}
+
+/* This is the Footer Section */
+footer{
+    text-align: center;
+    background-color: navy;
+    color: white;
+    padding: 50px 0;
 }
