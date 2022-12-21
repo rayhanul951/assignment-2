@@ -136,12 +136,32 @@ h1{
     border-radius: 8px;
 }
 
+.plan-itm h3{
+    color: navy;
+}
+
+strong{
+    font-size: 35px;
+    color: navy;
+    padding-right: 5px;
+}
+
 td{
     height: 35px;
 }
 
+.order{
+    text-decoration: none;
+    font-weight: bold;
+    color: navy;
+    background-color: #A1ABE2;
+    padding: 10px 20px;
+    border-radius: 60px;
+}
+
 .plan-itm:hover{
     border: 3px solid navy;
+    padding: 32px 52px;
 }
 
 .righty{
@@ -216,4 +236,20 @@ footer{
     background-color: navy;
     color: white;
     padding: 50px 0;
+}
+
+/* Section X */
+#section-x a{
+    text-decoration: none;
+    border:1px solid navy;
+}
+
+#section-x div{
+    /* box-shadow: 0 0 20px rgba(0, 0, 128, 0.432); */
+    /* padding: 10px; */
+}
+
+#xyz{
+    box-shadow: 0 0 20px rgba(0, 0, 128, 0.432);
+    padding: 10px;
 }
