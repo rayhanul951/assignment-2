@@ -30,6 +30,24 @@ h1{
     margin: o;
 }
 
+/* Section X */
+#section-2 a{
+    text-decoration: none;
+    border:1px solid navy;
+}
+
+#section-2 div{
+    /* box-shadow: 0 0 20px rgba(0, 0, 128, 0.432); */
+    /* padding: 10px; */
+}
+
+#section-2 form{
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 128, 0.432);
+    padding: 50px;
+}
+
 /* These are Section-2 Styles */
 #section-2{
     text-align: center;
@@ -236,20 +254,4 @@ footer{
     background-color: navy;
     color: white;
     padding: 50px 0;
-}
-
-/* Section X */
-#section-x a{
-    text-decoration: none;
-    border:1px solid navy;
-}
-
-#section-x div{
-    /* box-shadow: 0 0 20px rgba(0, 0, 128, 0.432); */
-    /* padding: 10px; */
-}
-
-#xyz{
-    box-shadow: 0 0 20px rgba(0, 0, 128, 0.432);
-    padding: 10px;
 }
